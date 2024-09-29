@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat with Assistant</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="chat-container">
+    <h3>Chat with Assistant</h3>
+    <div id="chat-box"></div>
+    <textarea id="user-input" name="userInput" placeholder="Type your message here..." autocomplete="off"></textarea>
+    <button id="send-btn" name="sendButton" class="hidden">Send</button>
+    <button id="toggle-api-key-btn">Update API Key</button>
+  </div>
+
+  <!-- Hidden API Key input form -->
+  <div id="api-key-container" class="hidden">
+    <label for="api-key-input">Groq API Key:</label>
+    <input type="password" id="api-key-input" name="apiKeyInput" placeholder="Enter your API key">
+    <br/>
+    <label for="model-input">Groq Model:</label>
+    <input type="text" id="model-input" name="modelInput" placeholder="Enter Groq model">
+    <button id="save-api-key-btn">Save API Key</button>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="popup.js"></script>
+</body>
+</html>
