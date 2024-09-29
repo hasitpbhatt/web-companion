@@ -13,8 +13,8 @@ A browser extension that allows users to chat with webpage content through an in
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/hasitpbhatt/web-companion.git
+   cd web-companion
    ```
 
 2. **Load the extension in your browser**:
