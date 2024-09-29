@@ -56,4 +56,4 @@ Feel free to submit issues or pull requests if you have suggestions for improvem
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
